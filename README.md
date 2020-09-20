@@ -95,36 +95,50 @@ put the value at key 5
 deque([5])
 
 put the value at key 4
+
 deque([4, 5])
 
 put the value at key 3
+
 deque([3, 4, 5])
 
 put the value at key 2
+
 deque([2, 3, 4, 5])
 
 put the value at key 1
+
 deque([1, 2, 3, 4])
 
 get the value at key 5
 -1
+
 deque([1, 2, 3, 4])
 
 put the value 23  at key 3
+
 deque([3, 1, 2, 4])
 
 get the value at key 3
+
 23
+
 deque([3, 1, 2, 4])
 
 get the value at key 1
+
 20
+
 deque([1, 3, 2, 4])
 
 get the value at key 4
+
 11
+
 deque([4, 1, 3, 2])
 
 get the value at key 3
+
 23
+
 deque([3, 4, 1, 2])
