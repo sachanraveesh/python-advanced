@@ -9,6 +9,7 @@ when cache reched its capacity the put(key, value) invalidate the least recently
 3. and cache can follow the LRU policy
 
 ######################################################################
+```python
 from collections import deque
 
 class LRUCache:
@@ -36,10 +37,10 @@ class LRUCache:
         
         self.m[key] = value
         self.deq.appendleft(key)
-######################################################################
+```python######################################################################
 
 ##################################
-Run the code
+#Run the code
 ##################################
 
 lru_cache = LRUCache(4)
@@ -82,7 +83,7 @@ print(lru_cache.deq)
 print(' get the value at key 3')
 print(lru_cache.get(3))
 print(lru_cache.deq)
-
+```python
 
 ##########################
 ## Output
